@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "database",
+    "port": 5432,
+    "username": "willian",
+    "password": "admin",
+    "database": "nestdb",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+  }
